@@ -1,0 +1,132 @@
+/* html {
+    box-sizing: border-box;
+} */
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+/* HEADER----------------------------------- */
+.wrapper {
+    max-width: 1720px;
+    margin: 0 auto;
+}
+body {
+    max-width: 1920px;
+    /* font-family: 'PT Serif';
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #171717; */
+}
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+.header-list {
+    
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.header-item {
+    margin-right: 35px;
+}
+
+.header-item:last-child {
+   margin-right: 0;
+}
+.header-link {
+    font-family: 'PT Serif';
+font-style: normal;
+    line-height: 19px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #171717;
+text-decoration: none;
+
+}
+.header-logo-link {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 2.5px;
+
+    color: #171717;
+text-decoration: none;
+
+}
+.header-link:hover, .header-link:focus, .header-link:active {
+    color: #C9A96E;
+}
+/* HEDER END------------------------------- */
+
+
+/* INTRO START----------------------------- */
+.intro {
+  
+    background: url(../figma/img/YourImage.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+    width: 1920px;
+    height: 700px;
+    
+    
+}
+.intro-title {
+    font-family: 'PT Serif';
+    line-height: 50px;
+    padding-top: 512px;
+    padding-left: 375px;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 560px ;
+   margin-bottom: 10px;
+    color: white;
+}
+/* .intro-titlesub {
+    padding-top: 490px;
+    padding-left: 375px;
+    font-size: 14px;
+    font-weight: 400;
+} */
+
+.intro-subtitle {
+    font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+    max-width: 283px;
+    padding-left: 375px;
+    color: white;
+}
+.intro-titlesub {
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+padding-left: 375px;
+padding-top: 510px;
+color: white;
+position: absolute;
+}
+
+
+
+
+
+
+
+
+/* INTRO END------------------------------- */
